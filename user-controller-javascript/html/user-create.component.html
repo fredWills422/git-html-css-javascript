@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="/user-controller-javascript/js/getUrlParms.js"></script>
+    <script src="/user-controller-javascript/js/user.service.js"></script>
+    <link rel="stylesheet" href="/user-controller-javascript/css/user-create.component.css">
+    <script src="/user-controller-javascript/js/user-create.component.js"></script>
+    <script src="/user-controller-javascript/js/user.common.js"></script>
+</head>
+<body>
+    <h3>User Create <a href="user-list.component.html">Return to user list</a></h3>
+    <table class="table table-sm">
+       
+        <tr>
+            <td>Id:</td>
+            <td><input id="pId" type="text" size="8" disabled></td>
+        </tr>
+        <tr>
+            <td>UserName:</td>
+            <td><input id="pUserName" type="text" size="30" disabled></td>
+        </tr>
+        <tr>
+            <td>Password: </td>
+            <td><input id="pPassword" type="password" size="30" disabled></td>
+        </tr>
+        <tr>
+            <td>FirstName: </td>
+            <td><input id="pFirstName" type="text" size="30" disabled></td>
+        </tr>
+        <tr>
+            <td>LastName: </td>
+            <td><input id="pLastName" type="text" size="30" disabled></td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input id="pPhone" type="text" size="15" disabled></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input id="pEmail" type="text" size="80" disabled></td>
+        </tr>
+        <tr>
+            <td>Admin:</td>
+            <td><input id="pAdmin" type="checkbox" disabled></td>
+        </tr>
+        <tr>
+            <td>Reviewer:</td>
+            <td><input id="pReviewer" type="checkbox" disabled></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button id="edit" class="btn btn-primary">Edit</button>
+            </td>
+            <td colspan="2">
+                <button id="delete" class="btn btn-primary">Delte</button>
+            </td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
